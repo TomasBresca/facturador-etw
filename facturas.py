@@ -8,7 +8,7 @@ import os
 def abrir_seccion_clientes():
     # Lógica para abrir la sección de clientes
     print("Abriendo sección de clientes...")
-    
+
 def generar_factura():
     # Obtener los valores de los campos de entrada
     dayIssue = calendar_issue.entry.get()
@@ -110,7 +110,7 @@ canvas.pack(side="left", fill="both", expand=True)
 scrollbar.pack(side="right", fill="y")
 
 # Cargar y mostrar el logo
-logo_image = tk.PhotoImage(file="ruta/del/logo.png")
+logo_image = tk.PhotoImage(file="/logo.png")
 logo_label = ttk.Label(scrollable_frame, image=logo_image, background="#121212")
 logo_label.pack(pady=20)
 

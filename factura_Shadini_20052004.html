@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Factura</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&amp;display=swap"
+        rel="stylesheet" type="text/css">
+        <style>
+            html {
+                text-align: center;
+                background-color: white;
+                font-family: 'Montserrat', sans-serif;
+            }
+            .header {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .header img {
+                width: 150px;
+                height: auto;
+            }
+            .a4-container {
+                max-width: 900px;
+                padding: 20px 30px;
+            }
+
+            @media (max-width: 768px) {
+                .a4-container {
+                    max-width: 100%;
+                }
+            }
+            body {
+                text-align: center;
+            }
+            .contenedor-datos {
+                border-radius: 12px;
+                padding: 20px;
+                background-color: azure;
+                margin-top: 60px;
+                text-align: left;
+            }
+            .negrita {
+                font-weight: 600;
+            }
+            .tabla-datos {
+                border-collapse: separate;
+                width: 100%;
+            }
+            td {
+                border-bottom: 1px solid rgba(56, 57, 59, 0.2);
+            }
+
+            .tabla-pago {
+                width: 100%;
+            }
+            .td-pago {
+                padding-bottom: 15px;
+                text-align: center;
+            }
+            .tabla-pago th {
+                border: 1px solid rgba(56, 57, 59, 0.2);
+            }
+
+            .encabezados-tabla-pagos {
+                text-align: center;
+            }
+
+
+        </style>
+
+    </head>
+    <body>
+        <div class="a4-container">
+            <div class="header">
+                <img src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/0db9f180-d222-4b2b-9371-cf9393bf4764/0bd8b69e-4024-4f26-9010-6e2a146401fb/LOGO_MONO_chico.png" alt="Logo Emprendemos Tu Web">
+                <h1>Factura</h1>
+            </div>   
+            <div class="contenedor-datos">
+                <table class="tabla-datos">
+                    <tr class="tabla-datos">
+                        <td>
+                        <p><span class="negrita">Fecha: </span>20/05/2004 </p>
+                    </td>
+                    </tr>
+                    <tr class="fila-datos">
+                        <td>
+                            <p><span class="negrita">Cliente: </span>Shadini</p>
+                        </td>
+                    </tr>
+                    <tr class="fila-datos">
+                        <td>
+                            <p><span class="negrita">Monto: </span>$</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="contenedor-datos">
+                <table class="tabla-pago">
+                    <tr>
+                        <th class="encabezados-tabla-pagos" style="width: 15%;">Cantidad af af afaf a</th>
+                        <th class="encabezados-tabla-pagos" style="width: 50%">Servicio fafa fa af a f</th>
+                        <th class="encabezados-tabla-pagos" style="width: 17.5%;">Precio Unitario fa af af af a </th>
+                        <th class="encabezados-tabla-pagos" style="width: 17.5%;">Total f a a a a a </th>
+                    </tr>
+                    <tr>
+                        <td class="td-pago">1</td>
+                        <td class="td-pago">Web</td>
+                        <td class="td-pago">500</td>
+                        <td class="td-pago">500</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </body>
+</html>
